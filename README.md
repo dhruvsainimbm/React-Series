@@ -1,5 +1,7 @@
 React + Vite
 
+Module - 1 (Basics of React)
+
 What is React ?
 ->JavaScript Library
 ->Develpped by facebook 2011
@@ -89,3 +91,21 @@ Other imp points
 Dynamic Components
 ->dynamic content - jsx allows the creation of dynamic and interactive UI Components
 ->javascript expression using {} we can embed any js expression directly within jsx.
+
+Module - 2 (Including Bootstrap)
+
+What is Bootstrap ?
+->Responsive
+->Components
+->Customizable
+->Cross-Browser
+->Open Source
+
+->install
+// npm i bootstrap
+
+->import
+// import "bootstrap/dist/css/bootstrap.min.css"
+
+bootstrap is very simple just go there and get things what you wanted to get
+and you can also use custom classes there.
