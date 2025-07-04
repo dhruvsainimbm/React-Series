@@ -56,3 +56,36 @@ File Extentions -
 ->.js - stands for javascript files
 -contain regular js - conatain general logic
 ->.jsx - stands for javascript xml - js + xml - use in making ui
+
+Functional v/s Class based Components
+->function based
+
+- initially stateless
+- can use hooks
+- simpler and concise
+- more popular
+  ->class based
+- stateful
+- lifecycle
+- verbose
+- not prefered
+
+What is jsx ?
+->jsx determine how the UI will look wherever the component is used
+->not html
+->jsx gets converted to regular javascript
+
+Exporting of the Component
+->enables the use of a component in other parts
+->default export allows exporting a single component as the default from a module
+->named export - allow exporting multiple items from a module
+-> to use exported component we must use import to import the component in that page
+
+Other imp points
+->Naming must be Started from capital letter only
+->html can be written in the from of xml
+->css in react can be written in the seperate file and the imported
+
+Dynamic Components
+->dynamic content - jsx allows the creation of dynamic and interactive UI Components
+->javascript expression using {} we can embed any js expression directly within jsx.
