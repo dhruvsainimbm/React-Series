@@ -1,111 +1,154 @@
-React + Vite
+  <h1>React + Vite</h1>
 
-Module - 1 (Basics of React)
+  <h2>Module 1: Basics of React</h2>
 
-What is React ?
-->JavaScript Library
-->Develpped by facebook 2011
-->Used to build Single page application
+  <h3>What is React?</h3>
+  <ul>
+    <li>JavaScript Library</li>
+    <li>Developed by Facebook in 2011</li>
+    <li>Used to build Single Page Applications (SPA)</li>
+  </ul>
 
-Working of DOM -
-->Document object model
-->in the form of tree
-->js is used to manipulate it
+  <h3>Working of DOM</h3>
+  <ul>
+    <li>DOM stands for Document Object Model</li>
+    <li>It is structured in the form of a tree</li>
+    <li>JavaScript is used to manipulate the DOM</li>
+  </ul>
 
-Problems with the JavaScript
-->react is simple
-->js is error prone ,complicated and hard to maintain
+  <h3>Problems with JavaScript</h3>
+  <ul>
+    <li>JavaScript can be error-prone, complicated, and hard to maintain</li>
+    <li>React simplifies development</li>
+  </ul>
 
-Working with React -
-->no need to query and update dom
-->react creates simple reusable components
-->react will take care of creating and updating dom elements
-->it saves lot of time
+  <h3>Working with React</h3>
+  <ul>
+    <li>No need to manually query and update the DOM</li>
+    <li>Creates simple, reusable components</li>
+    <li>Handles DOM creation and updates automatically</li>
+    <li>Saves a lot of development time</li>
+  </ul>
 
-JS VS REACT
-->js is imparitive:define steps to reach desired state
-->react is declarative :only define states react will take carre of steps
+  <h3>JavaScript vs React</h3>
+  <ul>
+    <li><strong>JavaScript:</strong> Imperative – define steps to reach the desired state</li>
+    <li><strong>React:</strong> Declarative – define the state, React handles the steps</li>
+  </ul>
 
-What are Components?
-->they are reusable , modular parts of the web page used for better optimality
+  <h3>What are Components?</h3>
+  <ul>
+    <li>Reusable, modular parts of a web page</li>
+    <li>Improve maintainability and optimization</li>
+  </ul>
 
-What is IDE for react?
-->IDE stands for Integrated Development Environment
-->Designed to improve developer efficiency
+  <h3>What is IDE for React?</h3>
+  <ul>
+    <li>IDE = Integrated Development Environment</li>
+    <li>Helps improve developer productivity and efficiency</li>
+  </ul>
 
-step:1
-->Install Latest Node.js in local setup
+  <h3>Setup Steps</h3>
+  <ol>
+    <li>Install latest Node.js</li>
+    <li>Create project using Vite + React:
+      <pre><code>npm create vite@latest &lt;project_name&gt;</code></pre>
+    </li>
+    <li>Install required npm modules:
+      <pre><code>npm install</code></pre>
+    </li>
+    <li>Run the development server:
+      <pre><code>npm run dev</code></pre>
+    </li>
+  </ol>
 
-->Project is setup through Vite+React
-// npm create vite@latest <file_name>
+  <h3>Project Structure</h3>
+  <ul>
+    <li><code>node_modules</code>: Contains dependencies</li>
+    <li><code>public</code>: Static assets</li>
+    <li><code>src</code>: Source files
+      <ul>
+        <li><code>components</code>: Reusable React components</li>
+        <li><code>assets</code>: Images, fonts, etc.</li>
+        <li><code>style</code>: CSS and stylesheets</li>
+      </ul>
+    </li>
+    <li><code>package.json</code>: Project metadata and dependencies</li>
+    <li><code>vite.config.js</code>: Vite configuration</li>
+    <li><code>.gitignore</code>: Files/folders to exclude from Git</li>
+    <li><code>index.html</code>: Main HTML file</li>
+  </ul>
 
-->Install npm modules which are required
-// npm i
+  <h3>File Extensions</h3>
+  <ul>
+    <li><code>.js</code>: JavaScript files for logic</li>
+    <li><code>.jsx</code>: JavaScript XML – combines JS and HTML-like syntax, used for UI</li>
+  </ul>
 
-->Run through
-// npm run dev
+  <h3>Functional vs Class-Based Components</h3>
+  <ul>
+    <li><strong>Function-based:</strong>
+      <ul>
+        <li>Initially stateless</li>
+        <li>Can use hooks</li>
+        <li>Simpler and concise</li>
+        <li>More popular</li>
+      </ul>
+    </li>
+    <li><strong>Class-based:</strong>
+      <ul>
+        <li>Stateful</li>
+        <li>Uses lifecycle methods</li>
+        <li>More verbose</li>
+        <li>Not preferred in modern React</li>
+      </ul>
+    </li>
+  </ul>
 
-Project Structure -
-->node_modules : contain node modules
-->public : contain static files
-->src : main folder of the project - components : reusable parts - asseets : images / fonts - style : css and stylesheets
-->package.json : manifest file contain info about project
-->vite.config.js : contain vite configuration
-->gitignore : contain file /folder name which need not to be pushed on the git.
-->index.html :main html file of the page
+  <h3>What is JSX?</h3>
+  <ul>
+    <li>JSX defines how UI will look</li>
+    <li>It’s not HTML – it gets compiled to JavaScript</li>
+  </ul>
 
-File Extentions -
-->.js - stands for javascript files
--contain regular js - conatain general logic
-->.jsx - stands for javascript xml - js + xml - use in making ui
+  <h3>Exporting Components</h3>
+  <ul>
+    <li>Enables reuse in other files</li>
+    <li><strong>Default export:</strong> exports one main component</li>
+    <li><strong>Named export:</strong> allows multiple exports from a file</li>
+    <li>Use <code>import</code> to use exported components</li>
+  </ul>
 
-Functional v/s Class based Components
-->function based
+  <h3>Other Important Points</h3>
+  <ul>
+    <li>Component names must start with a capital letter</li>
+    <li>HTML can be written in XML-like JSX</li>
+    <li>CSS can be written in separate files and imported</li>
+  </ul>
 
-- initially stateless
-- can use hooks
-- simpler and concise
-- more popular
-  ->class based
-- stateful
-- lifecycle
-- verbose
-- not prefered
+  <h3>Dynamic Components</h3>
+  <ul>
+    <li>JSX supports dynamic, interactive UI components</li>
+    <li>Use <code>{}</code> to embed JavaScript expressions inside JSX</li>
+  </ul>
 
-What is jsx ?
-->jsx determine how the UI will look wherever the component is used
-->not html
-->jsx gets converted to regular javascript
+  <hr />
 
-Exporting of the Component
-->enables the use of a component in other parts
-->default export allows exporting a single component as the default from a module
-->named export - allow exporting multiple items from a module
--> to use exported component we must use import to import the component in that page
+  <h2>Module 2: Including Bootstrap</h2>
 
-Other imp points
-->Naming must be Started from capital letter only
-->html can be written in the from of xml
-->css in react can be written in the seperate file and the imported
+  <h3>What is Bootstrap?</h3>
+  <ul>
+    <li>Responsive design framework</li>
+    <li>Pre-built UI components</li>
+    <li>Highly customizable</li>
+    <li>Cross-browser compatible</li>
+    <li>Open source</li>
+  </ul>
 
-Dynamic Components
-->dynamic content - jsx allows the creation of dynamic and interactive UI Components
-->javascript expression using {} we can embed any js expression directly within jsx.
+  <h3>Installing Bootstrap</h3>
+  <pre><code>npm install bootstrap</code></pre>
 
-Module - 2 (Including Bootstrap)
+  <h3>Importing Bootstrap</h3>
+  <pre><code>import "bootstrap/dist/css/bootstrap.min.css"</code></pre>
 
-What is Bootstrap ?
-->Responsive
-->Components
-->Customizable
-->Cross-Browser
-->Open Source
-
-->install
-// npm i bootstrap
-
-->import
-// import "bootstrap/dist/css/bootstrap.min.css"
-
-bootstrap is very simple just go there and get things what you wanted to get
-and you can also use custom classes there.
+  <p>Bootstrap is very simple to use. You can directly use ready-made components and also add your own custom classes as needed.</p>
