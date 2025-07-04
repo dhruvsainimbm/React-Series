@@ -1,0 +1,18 @@
+h1 {
+    font-weight: 700;
+    font-size:45px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.dhruv {
+    min-width: 90px;
+}
+
+.item-container{
+    text-align: left;
+}
