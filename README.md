@@ -1,7 +1,5 @@
   <h1>React + Vite</h1>
 
-  <h2>Module 1: Basics of React</h2>
-
   <h3>What is React?</h3>
   <ul>
     <li>JavaScript Library</li>
@@ -132,10 +130,6 @@
     <li>Use <code>{}</code> to embed JavaScript expressions inside JSX</li>
   </ul>
 
-  <hr />
-
-  <h2>Module 2: Including Bootstrap</h2>
-
   <h3>What is Bootstrap?</h3>
   <ul>
     <li>Responsive design framework</li>
@@ -152,3 +146,18 @@
   <pre><code>import "bootstrap/dist/css/bootstrap.min.css"</code></pre>
 
   <p>Bootstrap is very simple to use. You can directly use ready-made components and also add your own custom classes as needed.</p>
+
+What is Fragements?
+->allows grouping of multiple element without extra dom nodes.
+->cleaner and consistent dom
+syntax
+// <React.Fragement></React.Fragment>
+// <> </>
+
+What is Map Method?
+-> used to render lists from array data
+->transform array to jsx elements
+->Inline rendering
+// {itmes.map(item => <li key={item.id}>{item.name}</li>)}
+->key props : assign unique key for optimized re-render
+// <div key={item.id}>{item.name}</div>
