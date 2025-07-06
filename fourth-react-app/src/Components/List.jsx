@@ -9,7 +9,7 @@ function List() {
         Front-End
         <ul>
           {front.map((tech) => (
-            <li>{tech}</li>
+            <li key={tech}>{tech}</li>
           ))}
         </ul>
       </li>
@@ -18,7 +18,7 @@ function List() {
         Backend
         <ul>
           {back.map((tech) => (
-            <li>{tech}</li>
+            <li key={tech}>{tech}</li>
           ))}
         </ul>
       </li>
@@ -27,7 +27,7 @@ function List() {
         Dev Ops
         <ul>
           {DEV.map((tech) => (
-            <li>{tech}</li>
+            <li key={tech}>{tech}</li>
           ))}
         </ul>
       </li>
