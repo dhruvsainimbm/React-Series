@@ -7,6 +7,7 @@ function App() {
       <Heading></Heading>
       <hr />
       <List></List>
+      <br />
     </div>
   );
 }

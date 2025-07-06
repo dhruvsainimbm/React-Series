@@ -161,3 +161,10 @@ What is Map Method?
 // {itmes.map(item => <li key={item.id}>{item.name}</li>)}
 ->key props : assign unique key for optimized re-render
 // <div key={item.id}>{item.name}</div>
+
+Conditional Rendering
+->conditional rendering can be done using
+
+- if else
+- ternary operator
+- logical operators
