@@ -147,20 +147,42 @@
 
   <p>Bootstrap is very simple to use. You can directly use ready-made components and also add your own custom classes as needed.</p>
 
-What is Fragements?
-->allows grouping of multiple element without extra dom nodes.
-->cleaner and consistent dom
-syntax
-// <React.Fragement></React.Fragment>
-// <> </>
 
-What is Map Method?
--> used to render lists from array data
-->transform array to jsx elements
-->Inline rendering
-// {itmes.map(item => <li key={item.id}>{item.name}</li>)}
-->key props : assign unique key for optimized re-render
-// <div key={item.id}>{item.name}</div>
+<h3>What are Fragments?</h3>
+<ul>
+  <li>Allow grouping of multiple elements without adding extra DOM nodes</li>
+  <li>Helps maintain a cleaner and more consistent DOM structure</li>
+  <li>Syntax:
+    <pre><code>&lt;React.Fragment&gt;&lt;/React.Fragment&gt;
+&lt;&gt;&lt;/&gt;</code></pre>
+  </li>
+</ul>
+
+<h3>What is the <code>map()</code> Method?</h3>
+<ul>
+  <li>Used to render lists from array data</li>
+  <li>Transforms array elements into JSX</li>
+  <li>Supports inline rendering</li>
+  <li>Example:
+    <pre><code>{items.map(item =&gt; &lt;li key={item.id}&gt;{item.name}&lt;/li&gt;)}</code></pre>
+  </li>
+  <li><strong>Key prop:</strong> Assign a unique key for optimized re-rendering
+    <pre><code>&lt;div key={item.id}&gt;{item.name}&lt;/div&gt;</code></pre>
+  </li>
+</ul>
+
+<h3>Conditional Rendering</h3>
+<ul>
+  <li>Used to display content based on a condition</li>
+  <li>Common methods:
+    <ul>
+      <li><strong>If-else:</strong> Use traditional JavaScript conditionals</li>
+      <li><strong>Ternary operator:</strong> <code>{condition ? &lt;ComponentA /&gt; : &lt;ComponentB /&gt;}</code></li>
+      <li><strong>Logical AND (&&):</strong> <code>{condition &amp;&amp; &lt;Component /&gt;}</code></li>
+    </ul>
+  </li>
+</ul>
+
 
 Conditional Rendering
 ->conditional rendering can be done using
