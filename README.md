@@ -147,7 +147,6 @@
 
   <p>Bootstrap is very simple to use. You can directly use ready-made components and also add your own custom classes as needed.</p>
 
-
 <h3>What are Fragments?</h3>
 <ul>
   <li>Allow grouping of multiple elements without adding extra DOM nodes</li>
@@ -183,10 +182,8 @@
   </li>
 </ul>
 
-
-Conditional Rendering
-->conditional rendering can be done using
-
-- if else
-- ternary operator
-- logical operators
+What are props?
+->mechanism for passing data in react components.
+->pass data from parent to child
+->defined as the attribute in the jsx
+->work same as argument in the function
