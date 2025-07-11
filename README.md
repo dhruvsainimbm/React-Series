@@ -187,3 +187,12 @@ What are props?
 ->pass data from parent to child
 ->defined as the attribute in the jsx
 ->work same as argument in the function
+->props are used to pass data via parent to child
+
+CSS modules ?
+->localized class names to avoid global conflict
+->style are scpoped
+->helps in creating component-specific styles
+->automatically generates unique class names
+->promotes modular and maintainable css
+->it is the best practice to use <filename>.module.css as the css module name.
