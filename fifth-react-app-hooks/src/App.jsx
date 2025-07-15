@@ -1,5 +1,6 @@
 import UseState from "./assets/Components/UseState";
 import UseRef from "./assets/Components/UseRef";
+import UseContext from "./assets/Components/UseContext";
 function App() {
   return (
     <>
@@ -8,6 +9,8 @@ function App() {
       <UseState></UseState>
       <hr />
       <UseRef></UseRef>
+      <hr />
+      <UseContext></UseContext>
     </>
   );
 }
