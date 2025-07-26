@@ -8,6 +8,8 @@ import NotFound from "./Notfound.jsx";
 import Profile from "./Profile.jsx";
 import Settings from "./Settings.jsx";
 import Userlogin from "./Userlogin.jsx";
+import Members from "./Members.jsx";
+import UserDetail from "./UserDetail.jsx";
 function App() {
   return (
     <>
@@ -23,6 +25,9 @@ function App() {
           </Route>
         </Route>
         <Route path="blog" element={<Blog />} />
+        <Route path="members" element={<Members />} />
+        <Route path="/members/:id" element={<UserDetail />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

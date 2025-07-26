@@ -50,6 +50,17 @@ function Header() {
             Blog
           </NavLink>
         </li>
+
+        <li style={{ padding: "12px" }}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles.active : styles.notActive
+            }
+            to="/members"
+          >
+            Members
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
